@@ -16,6 +16,7 @@ alias gs='git status'
 alias gst='git status'
 alias gstash='git stash -u && git status'
 alias gstashpop='git stash pop && git status'
+alias gstashdrop!='git stash -u && git stash drop && git status'
 alias gundo='git reset HEAD~1 --mixed'
 alias gll='git log'
 
